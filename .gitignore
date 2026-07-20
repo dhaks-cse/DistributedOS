@@ -1,0 +1,27 @@
+# Compiled class files — this is almost certainly why your repo files showed
+# a coffee-cup icon and appeared "empty" on GitHub: .class files are binary
+# bytecode, not text, so GitHub can't render a preview for them, and if the
+# copy/commit was interrupted or done over a flaky connection they can easily
+# end up truncated to 0 bytes. Only source (.java) and build config should
+# ever be committed — never the out/ or target/ build output.
+*.class
+out/
+target/
+bin/
+
+# IDE metadata
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
