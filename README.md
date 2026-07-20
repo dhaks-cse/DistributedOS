@@ -1,4 +1,4 @@
-# DistributedOS — Distributed Operating System Simulator (Core Java)
+# DistributedOS — Distributed Operating System Simulator 
 
 A console-based Core Java simulation of a distributed operating system made
 of multiple virtual nodes. It demonstrates process scheduling, memory
