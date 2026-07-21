@@ -41,11 +41,4 @@ default/unnamed package — this is what keeps the folder flat.)
    `DistributedOS` folder → `Mark Directory as` → `Sources Root`.
 4. Run `Main.java`.
 
-## Notes
 
-- This project intentionally has no `pom.xml`: Maven's standard layout
-  (`src/main/java/...`) conflicts with the flat, package-less structure
-  requested here, and a single-package console app doesn't need a build
-  tool. Compile with `javac`/IntelliJ's built-in build instead.
-- `.gitignore` excludes `*.class`, `out/`, `target/`, `bin/`, and IDE
-  metadata (`.idea/`, `*.iml`) — never commit compiled output.
